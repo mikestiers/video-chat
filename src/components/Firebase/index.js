@@ -1,7 +1,4 @@
-import React from 'react';
-const Index = () => (
-  <div>
-    <h1>Index</h1>
-  </div>
-);
-export default Index;
+import FirebaseContext, { withFirebase } from './context';
+import Firebase from './firebase';
+export default Firebase;
+export { FirebaseContext, withFirebase };
