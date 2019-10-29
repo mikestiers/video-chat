@@ -4,6 +4,7 @@ import './index.css';
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
 import YouTube from 'react-youtube';
+require('dotenv').config()
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
